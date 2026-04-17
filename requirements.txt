@@ -1,0 +1,18 @@
+# -----------------------------------------------
+# PyTorch stack — install via conda FIRST:
+# conda install pytorch torchvision torchaudio -c pytorch
+# -----------------------------------------------
+
+# -----------------------------------------------
+# All other dependencies:
+# pip install -r requirements.txt
+# -----------------------------------------------
+grad-cam>=1.5.0
+scikit-learn>=1.4.0
+pandas>=2.0.0
+Pillow>=10.0.0
+matplotlib>=3.8.0
+tqdm>=4.66.0
+pyyaml>=6.0
+wandb>=0.16.0
+pytest>=8.0.0
