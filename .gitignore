@@ -13,6 +13,7 @@ data/ISIC_2019/
 
 # Model outputs — weights are too large for GitHub
 outputs/checkpoints/
+outputs/figures/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -22,3 +23,8 @@ outputs/checkpoints/
 
 # Wandb
 wandb/
+
+# Mac system files
+.DS_Store
+.DS_Store?
+**/.DS_Store
