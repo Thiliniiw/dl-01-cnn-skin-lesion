@@ -23,4 +23,4 @@ paths:
   checkpoint_dir: "outputs/checkpoints"
   figures_dir: "outputs/figures"
 
-seed: 42
+# seed: 42
