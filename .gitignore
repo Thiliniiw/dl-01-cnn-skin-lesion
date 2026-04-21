@@ -28,3 +28,6 @@ wandb/
 .DS_Store
 .DS_Store?
 **/.DS_Store
+
+# PDF files
+*.pdf
