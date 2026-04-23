@@ -13,7 +13,7 @@ data/ISIC_2019/
 
 # Model outputs — weights are too large for GitHub
 outputs/checkpoints/
-outputs/figures/
+
 # Keep figures — these are small and show results
 !outputs/figures/confusion_matrix.png
 !outputs/figures/gradcam.png
