@@ -44,19 +44,21 @@ itself rather than background artefacts or image metadata.
 
 ## Pipeline
 
+```
 data/
-download.sh              # ISIC 2019 download instructions
+  download.sh              # ISIC 2019 download instructions
 configs/
-config.yaml              # all hyperparameters
+  config.yaml              # all hyperparameters
 src/
-dataset.py               # data loading, augmentation, balanced sampling
-model.py                 # ResNet-50 with transfer learning
-train.py                 # training loop, early stopping, wandb logging
-evaluate.py              # metrics, confusion matrix, Grad-CAM
-utils.py                 # shared helpers
+  dataset.py               # data loading, augmentation, balanced sampling
+  model.py                 # ResNet-50 with transfer learning
+  train.py                 # training loop, early stopping, wandb logging
+  evaluate.py              # metrics, confusion matrix, Grad-CAM
+  utils.py                 # shared helpers
 tests/                     # 25 unit tests
 outputs/
-figures/                 # confusion matrix and Grad-CAM visualisations
+  figures/                 # confusion matrix and Grad-CAM visualisations
+```
 
 ## Architecture
 
