@@ -1,7 +1,6 @@
 # dl-01-cnn-skin-lesion
 
 Skin lesion classification using ResNet-50 and Grad-CAM interpretability.
-Part of a deep learning architecture exploration series.
 
 ## Results
 
